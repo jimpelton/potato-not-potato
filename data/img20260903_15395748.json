@@ -1,0 +1,2654 @@
+{
+  "file" : "img20260903_15395748.png",
+  "imageSize" : {
+    "height" : 5155,
+    "width" : 935
+  },
+  "layout" : "i/14/26   1:49 PM\nleceipt #: 278335-03\n'our cashier today is GP\n\n42563606596 FD BROTH CHCKN LOW       2.49\n             SDM 32 OZ\n42563606596  FD BROTH CHCKN LOW      2.49\n             SDM 32 OZ\n170009001123 IYC FLTRS CFEE NO.2     5.79\n             100 CNT\n06173005032 NY MUSTARD DIJON ORG     3.99\n             8 OZ\n20154        DAW T CAFE FMNO MED    10.39\n             RST BULK\n             0.65 lb @ $15.99/1b\n21082        OREGANO LEAF C/S ORG    0.66\n             BULK\n             0.03 lb @ $21.99/1b\n21113        SALT SEA CELTIC FINE    3.75\n             GRIND BULK\n             0.25 lb @ $14.99/1b\n317670010488 AE BAR CHOC DP DRK      4.29\n             C-SLT 2.820Z\n567796000135 LEMON ORG 2LB BAG       8.29\n319385023319 MT HAGEN CFFEE         15.99\n             INSTANT ORG 3.50Z\n073214008001 JFFS OLYS PTTD          7.79\n             CSTLVTRNO 5,5 0%\n07745        GRASSI PARMIGIANO      10.78\n             REGGIANO LB\n             0.49 lb @ $21.99/lb\n397785001304_ KATES BAR HANDLE 2.2   3.00\n             OZ\n                        Discount:\n397785001304 KATES BAR HANDLE 2.2    3.00\n             OZ\n                        Discount:\n042563605759 FD BEANS CANNELLINI     1.49\n             15 OZ\n042563605759 FD BEANS CANNELLINI     1.49\n             15 OZ\n07738        HOUSEMADE CHEESE BITS   4.42\n             $16.99\n             0.26 lb @ $16.99/lb\n350064476033 MGC CRACKERS CLASSIC    5.49\n             4 OZ\n03554        SSG PORK ITAL MILD     13.24\n             BULK\n             1.56 lb @ $8.49/1śęšś\n01059        RANGER CHCKN THIGH     16.70\n             BNLS\n             2.23 lb @ $7.49/1ł\n359977005125 GD CTGE CHS WHL MLK     5.29\n              16 OZ\n042563604028  FD TMTOS DICED 28 OZ   2.99\n079900001691 WYMANS BLUEBERRIES     19.99\n             WILD 48 OZ\n34011        BANANA ORG              3.17\n              2.46 lb @ $1.29/1b\n34627         KALE GREEN ORG         2.99\n395203001011 ORG GIRL SPNCH BBY      4,99\n             ORG 5 OZ\n395203001288 ORG GIRL MIX 50/50      7.99\n              ORG 10 OZ\n94093        ONION YELLOW ORG        1.75\n              0.88 lb @ $1.99/lb\n34608        GARLIC ORG              1.14\n             0.13 lb @ $8.79/1b\n748252090096 WFI EGGS FREE RNG LCL   6.99\n              12 CT\n34067        SQUASH ZUCCHINI ORG     3.04\n             0.87 lb @ $3.49/1b\n710928724208 TXAKOLI PRIMO ZARAUTZ  16.99\n             IXAKOLI\n534084470987Ś  BADGER LIP BALM CLEAR 2.50\n              ZINC .150Z\n34225        AVOCADO HASS ORG        6.00\n              2 @ 3.00\n34782        SQUASH YELLOW ORG       5.88\n             1.37 lb @ $4.29/1b\n34070        CELERY BUNCH ORG        3.82\n             1.16 lb @ $3.29/1b\n34562        CARROTS BULK TABLE      3.60\n             ORG\n             1.29 lb @$2.79/1b\n34038        PEACHES YELLOW ORG      7.14\n             1.43 lb @ $4.99/1b\n34062        CUCUMBER ORG            1.88\n             0.82 lb @ $2.29/1b\n93507        APPLE COSMIC CRISP      7.03\n             ORG\n              2.35 lb @ $2.99/1b\n305          BAG CREDIT              0.00\n             4 @ 0.00\n                        Discount:   -0.40\n\n               10% Member Coupon   -24.07\n\n             SUBTOTAL              216.23\n              State Tax             13.00\n              TOTAL                229.23\n              Credit Card          229.23\n              TOTAL TENDERED       229.23\n                                      --.\n             Change                  0.00",
+  "lines" : [
+    {
+      "height" : 0.0089,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.147,
+            "x" : 0.0283,
+            "y" : 0.0097
+          },
+          "confidence" : 1,
+          "text" : "i/14/26"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0088,
+            "width" : 0.1578,
+            "x" : 0.2553,
+            "y" : 0.0096
+          },
+          "confidence" : 1,
+          "text" : "1:49 PM"
+        }
+      ],
+      "text" : "i/14/26   1:49 PM",
+      "y" : 0.0141
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.423,
+            "x" : 0.0313,
+            "y" : 0.0194
+          },
+          "confidence" : 1,
+          "text" : "leceipt #: 278335-03"
+        }
+      ],
+      "text" : "leceipt #: 278335-03",
+      "y" : 0.0235
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.5065,
+            "x" : 0.0313,
+            "y" : 0.0285
+          },
+          "confidence" : 1,
+          "text" : "'our cashier today is GP"
+        }
+      ],
+      "text" : "'our cashier today is GP",
+      "y" : 0.0328
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.0479
+          },
+          "confidence" : 1,
+          "text" : "42563606596"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.4204,
+            "x" : 0.2872,
+            "y" : 0.0475
+          },
+          "confidence" : 1,
+          "text" : "FD BROTH CHCKN LOW"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.0917,
+            "x" : 0.8301,
+            "y" : 0.0469
+          },
+          "confidence" : 1,
+          "text" : "2.49"
+        }
+      ],
+      "text" : "42563606596 FD BROTH CHCKN LOW       2.49",
+      "y" : 0.0515
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1932,
+            "x" : 0.3211,
+            "y" : 0.0569
+          },
+          "confidence" : 1,
+          "text" : "SDM 32 OZ"
+        }
+      ],
+      "text" : "             SDM 32 OZ",
+      "y" : 0.0607
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.008,
+            "width" : 0.2537,
+            "x" : 0.0285,
+            "y" : 0.0664
+          },
+          "confidence" : 1,
+          "text" : "42563606596"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.389,
+            "x" : 0.3211,
+            "y" : 0.0664
+          },
+          "confidence" : 1,
+          "text" : "FD BROTH CHCKN LOW"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.0924,
+            "x" : 0.8299,
+            "y" : 0.0661
+          },
+          "confidence" : 1,
+          "text" : "2.49"
+        }
+      ],
+      "text" : "42563606596  FD BROTH CHCKN LOW      2.49",
+      "y" : 0.0704
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1958,
+            "x" : 0.3211,
+            "y" : 0.0759
+          },
+          "confidence" : 1,
+          "text" : "SDM 32 OZ"
+        }
+      ],
+      "text" : "             SDM 32 OZ",
+      "y" : 0.0797
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2559,
+            "x" : 0.0287,
+            "y" : 0.0854
+          },
+          "confidence" : 1,
+          "text" : "170009001123"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.4099,
+            "x" : 0.3211,
+            "y" : 0.0854
+          },
+          "confidence" : 0.5,
+          "text" : "IYC FLTRS CFEE NO.2"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.0888,
+            "x" : 0.8329,
+            "y" : 0.0849
+          },
+          "confidence" : 1,
+          "text" : "5.79"
+        }
+      ],
+      "text" : "170009001123 IYC FLTRS CFEE NO.2     5.79",
+      "y" : 0.0894
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1488,
+            "x" : 0.3238,
+            "y" : 0.0944
+          },
+          "confidence" : 1,
+          "text" : "100 CNT"
+        }
+      ],
+      "text" : "             100 CNT",
+      "y" : 0.0982
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0071,
+            "width" : 0.2742,
+            "x" : 0.0313,
+            "y" : 0.1044
+          },
+          "confidence" : 1,
+          "text" : "06173005032"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.4543,
+            "x" : 0.2977,
+            "y" : 0.1039
+          },
+          "confidence" : 1,
+          "text" : "NY MUSTARD DIJON ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.0888,
+            "x" : 0.8329,
+            "y" : 0.1039
+          },
+          "confidence" : 1,
+          "text" : "3.99"
+        }
+      ],
+      "text" : "06173005032 NY MUSTARD DIJON ORG     3.99",
+      "y" : 0.1079
+    },
+    {
+      "height" : 0.0075,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0075,
+            "width" : 0.0903,
+            "x" : 0.3204,
+            "y" : 0.1134
+          },
+          "confidence" : 1,
+          "text" : "8 OZ"
+        }
+      ],
+      "text" : "             8 OZ",
+      "y" : 0.1172
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.107,
+            "x" : 0.0287,
+            "y" : 0.1234
+          },
+          "confidence" : 1,
+          "text" : "20154"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.4125,
+            "x" : 0.3185,
+            "y" : 0.1229
+          },
+          "confidence" : 1,
+          "text" : "DAW T CAFE FMNO MED"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.1098,
+            "x" : 0.812,
+            "y" : 0.1229
+          },
+          "confidence" : 1,
+          "text" : "10.39"
+        }
+      ],
+      "text" : "20154        DAW T CAFE FMNO MED    10.39",
+      "y" : 0.1272
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0083,
+            "width" : 0.1778,
+            "x" : 0.3184,
+            "y" : 0.1323
+          },
+          "confidence" : 1,
+          "text" : "RST BULK"
+        }
+      ],
+      "text" : "             RST BULK",
+      "y" : 0.1364
+    },
+    {
+      "height" : 0.0101,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0101,
+            "width" : 0.4132,
+            "x" : 0.3182,
+            "y" : 0.1413
+          },
+          "confidence" : 1,
+          "text" : "0.65 lb @ $15.99/1b"
+        }
+      ],
+      "text" : "             0.65 lb @ $15.99/1b",
+      "y" : 0.1464
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.1075,
+            "x" : 0.0285,
+            "y" : 0.1518
+          },
+          "confidence" : 1,
+          "text" : "21082"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.4334,
+            "x" : 0.3185,
+            "y" : 0.1514
+          },
+          "confidence" : 1,
+          "text" : "OREGANO LEAF C/S ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.0898,
+            "x" : 0.8324,
+            "y" : 0.1512
+          },
+          "confidence" : 1,
+          "text" : "0.66"
+        }
+      ],
+      "text" : "21082        OREGANO LEAF C/S ORG    0.66",
+      "y" : 0.1557
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.0914,
+            "x" : 0.3185,
+            "y" : 0.1609
+          },
+          "confidence" : 1,
+          "text" : "BULK"
+        }
+      ],
+      "text" : "             BULK",
+      "y" : 0.1649
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.4125,
+            "x" : 0.3185,
+            "y" : 0.1698
+          },
+          "confidence" : 1,
+          "text" : "0.03 lb @ $21.99/1b"
+        }
+      ],
+      "text" : "             0.03 lb @ $21.99/1b",
+      "y" : 0.1746
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0073,
+            "width" : 0.1053,
+            "x" : 0.0309,
+            "y" : 0.1799
+          },
+          "confidence" : 1,
+          "text" : "21113"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.4315,
+            "x" : 0.3234,
+            "y" : 0.1791
+          },
+          "confidence" : 1,
+          "text" : "SALT SEA CELTIC FINE"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.094,
+            "x" : 0.8303,
+            "y" : 0.1794
+          },
+          "confidence" : 1,
+          "text" : "3.75"
+        }
+      ],
+      "text" : "21113        SALT SEA CELTIC FINE    3.75",
+      "y" : 0.1836
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0083,
+            "width" : 0.2222,
+            "x" : 0.3184,
+            "y" : 0.1887
+          },
+          "confidence" : 1,
+          "text" : "GRIND BULK"
+        }
+      ],
+      "text" : "             GRIND BULK",
+      "y" : 0.1929
+    },
+    {
+      "height" : 0.0097,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0097,
+            "width" : 0.4107,
+            "x" : 0.3208,
+            "y" : 0.1978
+          },
+          "confidence" : 1,
+          "text" : "0.25 lb @ $14.99/1b"
+        }
+      ],
+      "text" : "             0.25 lb @ $14.99/1b",
+      "y" : 0.2027
+    },
+    {
+      "height" : 0.0088,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.2562,
+            "x" : 0.0286,
+            "y" : 0.2077
+          },
+          "confidence" : 1,
+          "text" : "317670010488"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.389,
+            "x" : 0.3211,
+            "y" : 0.2078
+          },
+          "confidence" : 1,
+          "text" : "AE BAR CHOC DP DRK"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.0954,
+            "x" : 0.8296,
+            "y" : 0.2076
+          },
+          "confidence" : 1,
+          "text" : "4.29"
+        }
+      ],
+      "text" : "317670010488 AE BAR CHOC DP DRK      4.29",
+      "y" : 0.2121
+    },
+    {
+      "height" : 0.0096,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0096,
+            "width" : 0.2643,
+            "x" : 0.3209,
+            "y" : 0.2169
+          },
+          "confidence" : 1,
+          "text" : "C-SLT 2.820Z"
+        }
+      ],
+      "text" : "             C-SLT 2.820Z",
+      "y" : 0.2217
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.256,
+            "x" : 0.0287,
+            "y" : 0.2268
+          },
+          "confidence" : 1,
+          "text" : "567796000135"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.3681,
+            "x" : 0.3211,
+            "y" : 0.2268
+          },
+          "confidence" : 1,
+          "text" : "LEMON ORG 2LB BAG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.094,
+            "x" : 0.8303,
+            "y" : 0.2268
+          },
+          "confidence" : 1,
+          "text" : "8.29"
+        }
+      ],
+      "text" : "567796000135 LEMON ORG 2LB BAG       8.29",
+      "y" : 0.231
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0079,
+            "width" : 0.2562,
+            "x" : 0.0286,
+            "y" : 0.2363
+          },
+          "confidence" : 1,
+          "text" : "319385023319"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.3107,
+            "x" : 0.3211,
+            "y" : 0.2363
+          },
+          "confidence" : 1,
+          "text" : "MT HAGEN CFFEE"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.1105,
+            "x" : 0.8142,
+            "y" : 0.2361
+          },
+          "confidence" : 1,
+          "text" : "15.99"
+        }
+      ],
+      "text" : "319385023319 MT HAGEN CFFEE         15.99",
+      "y" : 0.2403
+    },
+    {
+      "height" : 0.0107,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0107,
+            "width" : 0.3693,
+            "x" : 0.3206,
+            "y" : 0.2444
+          },
+          "confidence" : 1,
+          "text" : "INSTANT ORG 3.50Z"
+        }
+      ],
+      "text" : "             INSTANT ORG 3.50Z",
+      "y" : 0.2498
+    },
+    {
+      "height" : 0.0079,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2533,
+            "x" : 0.0287,
+            "y" : 0.2553
+          },
+          "confidence" : 1,
+          "text" : "073214008001"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.3081,
+            "x" : 0.3238,
+            "y" : 0.2553
+          },
+          "confidence" : 0.5,
+          "text" : "JFFS OLYS PTTD"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.0915,
+            "x" : 0.8328,
+            "y" : 0.2553
+          },
+          "confidence" : 1,
+          "text" : "7.79"
+        }
+      ],
+      "text" : "073214008001 JFFS OLYS PTTD          7.79",
+      "y" : 0.2593
+    },
+    {
+      "height" : 0.0096,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0096,
+            "width" : 0.3473,
+            "x" : 0.3211,
+            "y" : 0.2642
+          },
+          "confidence" : 0.5,
+          "text" : "CSTLVTRNO 5,5 0%"
+        }
+      ],
+      "text" : "             CSTLVTRNO 5,5 0%",
+      "y" : 0.269
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0077,
+            "width" : 0.1072,
+            "x" : 0.0286,
+            "y" : 0.2742
+          },
+          "confidence" : 1,
+          "text" : "07745"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.3681,
+            "x" : 0.3211,
+            "y" : 0.2737
+          },
+          "confidence" : 1,
+          "text" : "GRASSI PARMIGIANO"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0088,
+            "width" : 0.1102,
+            "x" : 0.8144,
+            "y" : 0.2737
+          },
+          "confidence" : 1,
+          "text" : "10.78"
+        }
+      ],
+      "text" : "07745        GRASSI PARMIGIANO      10.78",
+      "y" : 0.278
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.243,
+            "x" : 0.3211,
+            "y" : 0.2832
+          },
+          "confidence" : 1,
+          "text" : "REGGIANO LB"
+        }
+      ],
+      "text" : "             REGGIANO LB",
+      "y" : 0.2873
+    },
+    {
+      "height" : 0.0107,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0107,
+            "width" : 0.4134,
+            "x" : 0.3207,
+            "y" : 0.2921
+          },
+          "confidence" : 1,
+          "text" : "0.49 lb @ $21.99/lb"
+        }
+      ],
+      "text" : "             0.49 lb @ $21.99/lb",
+      "y" : 0.2975
+    },
+    {
+      "height" : 0.0101,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0108,
+            "width" : 0.729,
+            "x" : 0.0285,
+            "y" : 0.3015
+          },
+          "confidence" : 1,
+          "text" : "397785001304_ KATES BAR HANDLE 2.2"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.0948,
+            "x" : 0.8299,
+            "y" : 0.3021
+          },
+          "confidence" : 1,
+          "text" : "3.00"
+        }
+      ],
+      "text" : "397785001304_ KATES BAR HANDLE 2.2   3.00",
+      "y" : 0.3068
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.0496,
+            "x" : 0.3211,
+            "y" : 0.3117
+          },
+          "confidence" : 1,
+          "text" : "OZ"
+        }
+      ],
+      "text" : "             OZ",
+      "y" : 0.3155
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.1938,
+            "x" : 0.5584,
+            "y" : 0.321
+          },
+          "confidence" : 1,
+          "text" : "Discount:"
+        }
+      ],
+      "text" : "                        Discount:",
+      "y" : 0.3253
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.2588,
+            "x" : 0.0286,
+            "y" : 0.3306
+          },
+          "confidence" : 1,
+          "text" : "397785001304"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.4334,
+            "x" : 0.3211,
+            "y" : 0.3307
+          },
+          "confidence" : 1,
+          "text" : "KATES BAR HANDLE 2.2"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.0892,
+            "x" : 0.8353,
+            "y" : 0.3306
+          },
+          "confidence" : 1,
+          "text" : "3.00"
+        }
+      ],
+      "text" : "397785001304 KATES BAR HANDLE 2.2    3.00",
+      "y" : 0.3349
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.0496,
+            "x" : 0.3211,
+            "y" : 0.3402
+          },
+          "confidence" : 1,
+          "text" : "OZ"
+        }
+      ],
+      "text" : "             OZ",
+      "y" : 0.344
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1937,
+            "x" : 0.5585,
+            "y" : 0.3495
+          },
+          "confidence" : 1,
+          "text" : "Discount:"
+        }
+      ],
+      "text" : "                        Discount:",
+      "y" : 0.3533
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.3587
+          },
+          "confidence" : 1,
+          "text" : "042563605759"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0096,
+            "width" : 0.413,
+            "x" : 0.3209,
+            "y" : 0.3582
+          },
+          "confidence" : 1,
+          "text" : "FD BEANS CANNELLINI"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.0888,
+            "x" : 0.8355,
+            "y" : 0.3587
+          },
+          "confidence" : 1,
+          "text" : "1.49"
+        }
+      ],
+      "text" : "042563605759 FD BEANS CANNELLINI     1.49",
+      "y" : 0.3631
+    },
+    {
+      "height" : 0.0089,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0089,
+            "width" : 0.1131,
+            "x" : 0.3233,
+            "y" : 0.3675
+          },
+          "confidence" : 1,
+          "text" : "15 OZ"
+        }
+      ],
+      "text" : "             15 OZ",
+      "y" : 0.372
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.3777
+          },
+          "confidence" : 1,
+          "text" : "042563605759"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.4099,
+            "x" : 0.3238,
+            "y" : 0.3776
+          },
+          "confidence" : 1,
+          "text" : "FD BEANS CANNELLINI"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.0862,
+            "x" : 0.8381,
+            "y" : 0.3777
+          },
+          "confidence" : 1,
+          "text" : "1.49"
+        }
+      ],
+      "text" : "042563605759 FD BEANS CANNELLINI     1.49",
+      "y" : 0.3819
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1098,
+            "x" : 0.3237,
+            "y" : 0.3872
+          },
+          "confidence" : 1,
+          "text" : "15 OZ"
+        }
+      ],
+      "text" : "             15 OZ",
+      "y" : 0.3913
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.1123,
+            "x" : 0.0287,
+            "y" : 0.3957
+          },
+          "confidence" : 1,
+          "text" : "07738"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.4569,
+            "x" : 0.3211,
+            "y" : 0.3962
+          },
+          "confidence" : 1,
+          "text" : "HOUSEMADE CHEESE BITS"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.0927,
+            "x" : 0.8324,
+            "y" : 0.3964
+          },
+          "confidence" : 1,
+          "text" : "4.42"
+        }
+      ],
+      "text" : "07738        HOUSEMADE CHEESE BITS   4.42",
+      "y" : 0.4006
+    },
+    {
+      "height" : 0.0105,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0105,
+            "width" : 0.1382,
+            "x" : 0.3199,
+            "y" : 0.4054
+          },
+          "confidence" : 1,
+          "text" : "$16.99"
+        }
+      ],
+      "text" : "             $16.99",
+      "y" : 0.4107
+    },
+    {
+      "height" : 0.01,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.01,
+            "width" : 0.4125,
+            "x" : 0.3211,
+            "y" : 0.4152
+          },
+          "confidence" : 1,
+          "text" : "0.26 lb @ $16.99/lb"
+        }
+      ],
+      "text" : "             0.26 lb @ $16.99/lb",
+      "y" : 0.4202
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0092,
+            "width" : 0.2586,
+            "x" : 0.0286,
+            "y" : 0.4246
+          },
+          "confidence" : 1,
+          "text" : "350064476033"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.436,
+            "x" : 0.3211,
+            "y" : 0.4247
+          },
+          "confidence" : 1,
+          "text" : "MGC CRACKERS CLASSIC"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.0923,
+            "x" : 0.8325,
+            "y" : 0.425
+          },
+          "confidence" : 1,
+          "text" : "5.49"
+        }
+      ],
+      "text" : "350064476033 MGC CRACKERS CLASSIC    5.49",
+      "y" : 0.4293
+    },
+    {
+      "height" : 0.0087,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.0917,
+            "x" : 0.321,
+            "y" : 0.4341
+          },
+          "confidence" : 1,
+          "text" : "4 OZ"
+        }
+      ],
+      "text" : "             4 OZ",
+      "y" : 0.4385
+    },
+    {
+      "height" : 0.0091,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0096,
+            "width" : 0.1151,
+            "x" : 0.0286,
+            "y" : 0.4431
+          },
+          "confidence" : 1,
+          "text" : "03554"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.3916,
+            "x" : 0.3211,
+            "y" : 0.4436
+          },
+          "confidence" : 1,
+          "text" : "SSG PORK ITAL MILD"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0092,
+            "width" : 0.1127,
+            "x" : 0.8144,
+            "y" : 0.444
+          },
+          "confidence" : 1,
+          "text" : "13.24"
+        }
+      ],
+      "text" : "03554        SSG PORK ITAL MILD     13.24",
+      "y" : 0.4481
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.0942,
+            "x" : 0.3211,
+            "y" : 0.4531
+          },
+          "confidence" : 1,
+          "text" : "BULK"
+        }
+      ],
+      "text" : "             BULK",
+      "y" : 0.4572
+    },
+    {
+      "height" : 0.0104,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0104,
+            "width" : 0.3916,
+            "x" : 0.3211,
+            "y" : 0.4617
+          },
+          "confidence" : 1,
+          "text" : "1.56 lb @ $8.49/1śęšś"
+        }
+      ],
+      "text" : "             1.56 lb @ $8.49/1śęšś",
+      "y" : 0.4669
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0077,
+            "width" : 0.1099,
+            "x" : 0.0286,
+            "y" : 0.472
+          },
+          "confidence" : 1,
+          "text" : "01059"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.3916,
+            "x" : 0.3211,
+            "y" : 0.472
+          },
+          "confidence" : 1,
+          "text" : "RANGER CHCKN THIGH"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0094,
+            "width" : 0.1159,
+            "x" : 0.8115,
+            "y" : 0.4719
+          },
+          "confidence" : 1,
+          "text" : "16.70"
+        }
+      ],
+      "text" : "01059        RANGER CHCKN THIGH     16.70",
+      "y" : 0.4762
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.094,
+            "x" : 0.3211,
+            "y" : 0.4816
+          },
+          "confidence" : 0.3,
+          "text" : "BNLS"
+        }
+      ],
+      "text" : "             BNLS",
+      "y" : 0.4857
+    },
+    {
+      "height" : 0.0105,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0105,
+            "width" : 0.3923,
+            "x" : 0.3209,
+            "y" : 0.4905
+          },
+          "confidence" : 1,
+          "text" : "2.23 lb @ $7.49/1ł"
+        }
+      ],
+      "text" : "             2.23 lb @ $7.49/1ł",
+      "y" : 0.4958
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.5006
+          },
+          "confidence" : 1,
+          "text" : "359977005125"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.4151,
+            "x" : 0.3211,
+            "y" : 0.5005
+          },
+          "confidence" : 0.5,
+          "text" : "GD CTGE CHS WHL MLK"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.0955,
+            "x" : 0.8321,
+            "y" : 0.5003
+          },
+          "confidence" : 1,
+          "text" : "5.29"
+        }
+      ],
+      "text" : "359977005125 GD CTGE CHS WHL MLK     5.29",
+      "y" : 0.5047
+    },
+    {
+      "height" : 0.0078,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0078,
+            "width" : 0.1101,
+            "x" : 0.3261,
+            "y" : 0.51
+          },
+          "confidence" : 1,
+          "text" : "16 OZ"
+        }
+      ],
+      "text" : "              16 OZ",
+      "y" : 0.5139
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.5196
+          },
+          "confidence" : 1,
+          "text" : "042563604028"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.4282,
+            "x" : 0.3264,
+            "y" : 0.5191
+          },
+          "confidence" : 1,
+          "text" : "FD TMTOS DICED 28 OZ"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.094,
+            "x" : 0.8329,
+            "y" : 0.5196
+          },
+          "confidence" : 1,
+          "text" : "2.99"
+        }
+      ],
+      "text" : "042563604028  FD TMTOS DICED 28 OZ   2.99",
+      "y" : 0.5235
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2559,
+            "x" : 0.0287,
+            "y" : 0.529
+          },
+          "confidence" : 1,
+          "text" : "079900001691"
+        },
+        {
+          "bbox" : {
+            "height" : 0.01,
+            "width" : 0.3969,
+            "x" : 0.3211,
+            "y" : 0.5276
+          },
+          "confidence" : 1,
+          "text" : "WYMANS BLUEBERRIES"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0109,
+            "width" : 0.1175,
+            "x" : 0.8146,
+            "y" : 0.5271
+          },
+          "confidence" : 1,
+          "text" : "19.99"
+        }
+      ],
+      "text" : "079900001691 WYMANS BLUEBERRIES     19.99",
+      "y" : 0.5327
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.2219,
+            "x" : 0.3211,
+            "y" : 0.5375
+          },
+          "confidence" : 1,
+          "text" : "WILD 48 OZ"
+        }
+      ],
+      "text" : "             WILD 48 OZ",
+      "y" : 0.5423
+    },
+    {
+      "height" : 0.0091,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1044,
+            "x" : 0.0287,
+            "y" : 0.548
+          },
+          "confidence" : 1,
+          "text" : "34011"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.2221,
+            "x" : 0.3237,
+            "y" : 0.5474
+          },
+          "confidence" : 1,
+          "text" : "BANANA ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.011,
+            "width" : 0.0996,
+            "x" : 0.8301,
+            "y" : 0.5465
+          },
+          "confidence" : 1,
+          "text" : "3.17"
+        }
+      ],
+      "text" : "34011        BANANA ORG              3.17",
+      "y" : 0.5518
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.3838,
+            "x" : 0.3264,
+            "y" : 0.5579
+          },
+          "confidence" : 1,
+          "text" : "2.46 lb @ $1.29/1b"
+        }
+      ],
+      "text" : "              2.46 lb @ $1.29/1b",
+      "y" : 0.562
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.5665
+          },
+          "confidence" : 1,
+          "text" : "34627"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0068,
+            "width" : 0.3055,
+            "x" : 0.3264,
+            "y" : 0.5674
+          },
+          "confidence" : 1,
+          "text" : "KALE GREEN ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.01,
+            "width" : 0.0966,
+            "x" : 0.8329,
+            "y" : 0.5655
+          },
+          "confidence" : 1,
+          "text" : "2.99"
+        }
+      ],
+      "text" : "34627         KALE GREEN ORG         2.99",
+      "y" : 0.5706
+    },
+    {
+      "height" : 0.0093,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2559,
+            "x" : 0.0287,
+            "y" : 0.576
+          },
+          "confidence" : 1,
+          "text" : "395203001011"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.3916,
+            "x" : 0.3238,
+            "y" : 0.5755
+          },
+          "confidence" : 1,
+          "text" : "ORG GIRL SPNCH BBY"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0109,
+            "width" : 0.0992,
+            "x" : 0.8303,
+            "y" : 0.5746
+          },
+          "confidence" : 1,
+          "text" : "4,99"
+        }
+      ],
+      "text" : "395203001011 ORG GIRL SPNCH BBY      4,99",
+      "y" : 0.58
+    },
+    {
+      "height" : 0.0091,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.1777,
+            "x" : 0.3237,
+            "y" : 0.585
+          },
+          "confidence" : 1,
+          "text" : "ORG 5 OZ"
+        }
+      ],
+      "text" : "             ORG 5 OZ",
+      "y" : 0.5896
+    },
+    {
+      "height" : 0.0098,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.595
+          },
+          "confidence" : 1,
+          "text" : "395203001288"
+        },
+        {
+          "bbox" : {
+            "height" : 0.01,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.5945
+          },
+          "confidence" : 1,
+          "text" : "ORG GIRL MIX 50/50"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0119,
+            "width" : 0.0992,
+            "x" : 0.8303,
+            "y" : 0.5935
+          },
+          "confidence" : 1,
+          "text" : "7.99"
+        }
+      ],
+      "text" : "395203001288 ORG GIRL MIX 50/50      7.99",
+      "y" : 0.5993
+    },
+    {
+      "height" : 0.0078,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0078,
+            "width" : 0.1961,
+            "x" : 0.3262,
+            "y" : 0.6043
+          },
+          "confidence" : 1,
+          "text" : "ORG 10 OZ"
+        }
+      ],
+      "text" : "              ORG 10 OZ",
+      "y" : 0.6082
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1098,
+            "x" : 0.0286,
+            "y" : 0.6134
+          },
+          "confidence" : 1,
+          "text" : "94093"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.3473,
+            "x" : 0.3238,
+            "y" : 0.6139
+          },
+          "confidence" : 1,
+          "text" : "ONION YELLOW ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.0888,
+            "x" : 0.8381,
+            "y" : 0.6139
+          },
+          "confidence" : 1,
+          "text" : "1.75"
+        }
+      ],
+      "text" : "94093        ONION YELLOW ORG        1.75",
+      "y" : 0.6178
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.3864,
+            "x" : 0.3264,
+            "y" : 0.623
+          },
+          "confidence" : 1,
+          "text" : "0.88 lb @ $1.99/lb"
+        }
+      ],
+      "text" : "              0.88 lb @ $1.99/lb",
+      "y" : 0.6275
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0079,
+            "width" : 0.1103,
+            "x" : 0.0284,
+            "y" : 0.6328
+          },
+          "confidence" : 1,
+          "text" : "34608"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.2194,
+            "x" : 0.3237,
+            "y" : 0.6324
+          },
+          "confidence" : 1,
+          "text" : "GARLIC ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.0939,
+            "x" : 0.8368,
+            "y" : 0.6323
+          },
+          "confidence" : 1,
+          "text" : "1.14"
+        }
+      ],
+      "text" : "34608        GARLIC ORG              1.14",
+      "y" : 0.6367
+    },
+    {
+      "height" : 0.0096,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0096,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.6419
+          },
+          "confidence" : 1,
+          "text" : "0.13 lb @ $8.79/1b"
+        }
+      ],
+      "text" : "             0.13 lb @ $8.79/1b",
+      "y" : 0.6467
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.6514
+          },
+          "confidence" : 1,
+          "text" : "748252090096"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.4517,
+            "x" : 0.3238,
+            "y" : 0.6514
+          },
+          "confidence" : 1,
+          "text" : "WFI EGGS FREE RNG LCL"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.0928,
+            "x" : 0.8349,
+            "y" : 0.6516
+          },
+          "confidence" : 1,
+          "text" : "6.99"
+        }
+      ],
+      "text" : "748252090096 WFI EGGS FREE RNG LCL   6.99",
+      "y" : 0.6555
+    },
+    {
+      "height" : 0.0076,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1044,
+            "x" : 0.329,
+            "y" : 0.6609
+          },
+          "confidence" : 1,
+          "text" : "12 CT"
+        }
+      ],
+      "text" : "              12 CT",
+      "y" : 0.6647
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0083,
+            "width" : 0.1075,
+            "x" : 0.0285,
+            "y" : 0.6703
+          },
+          "confidence" : 1,
+          "text" : "34067"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.4125,
+            "x" : 0.3238,
+            "y" : 0.6704
+          },
+          "confidence" : 1,
+          "text" : "SQUASH ZUCCHINI ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.094,
+            "x" : 0.8329,
+            "y" : 0.6704
+          },
+          "confidence" : 1,
+          "text" : "3.04"
+        }
+      ],
+      "text" : "34067        SQUASH ZUCCHINI ORG     3.04",
+      "y" : 0.6746
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.6799
+          },
+          "confidence" : 1,
+          "text" : "0.87 lb @ $3.49/1b"
+        }
+      ],
+      "text" : "             0.87 lb @ $3.49/1b",
+      "y" : 0.6847
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.2585,
+            "x" : 0.0287,
+            "y" : 0.6894
+          },
+          "confidence" : 1,
+          "text" : "710928724208"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.4543,
+            "x" : 0.3238,
+            "y" : 0.6893
+          },
+          "confidence" : 1,
+          "text" : "TXAKOLI PRIMO ZARAUTZ"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.1101,
+            "x" : 0.817,
+            "y" : 0.6893
+          },
+          "confidence" : 1,
+          "text" : "16.99"
+        }
+      ],
+      "text" : "710928724208 TXAKOLI PRIMO ZARAUTZ  16.99",
+      "y" : 0.6935
+    },
+    {
+      "height" : 0.0088,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0088,
+            "width" : 0.1597,
+            "x" : 0.3183,
+            "y" : 0.6988
+          },
+          "confidence" : 0.5,
+          "text" : "IXAKOLI"
+        }
+      ],
+      "text" : "             IXAKOLI",
+      "y" : 0.7032
+    },
+    {
+      "height" : 0.0094,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0097,
+            "width" : 0.2535,
+            "x" : 0.0312,
+            "y" : 0.7064
+          },
+          "confidence" : 1,
+          "text" : "534084470987Ś"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.4595,
+            "x" : 0.3238,
+            "y" : 0.7073
+          },
+          "confidence" : 1,
+          "text" : "BADGER LIP BALM CLEAR"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.094,
+            "x" : 0.8329,
+            "y" : 0.7074
+          },
+          "confidence" : 1,
+          "text" : "2.50"
+        }
+      ],
+      "text" : "534084470987Ś  BADGER LIP BALM CLEAR 2.50",
+      "y" : 0.7118
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.2168,
+            "x" : 0.3263,
+            "y" : 0.7178
+          },
+          "confidence" : 1,
+          "text" : "ZINC .150Z"
+        }
+      ],
+      "text" : "              ZINC .150Z",
+      "y" : 0.7219
+    },
+    {
+      "height" : 0.008,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.7274
+          },
+          "confidence" : 1,
+          "text" : "34225"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.3473,
+            "x" : 0.3238,
+            "y" : 0.7273
+          },
+          "confidence" : 1,
+          "text" : "AVOCADO HASS ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0083,
+            "width" : 0.0919,
+            "x" : 0.8353,
+            "y" : 0.7273
+          },
+          "confidence" : 1,
+          "text" : "6.00"
+        }
+      ],
+      "text" : "34225        AVOCADO HASS ORG        6.00",
+      "y" : 0.7313
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.1752,
+            "x" : 0.3263,
+            "y" : 0.7368
+          },
+          "confidence" : 1,
+          "text" : "2 @ 3.00"
+        }
+      ],
+      "text" : "              2 @ 3.00",
+      "y" : 0.7409
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.7461
+          },
+          "confidence" : 1,
+          "text" : "34782"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.3681,
+            "x" : 0.3238,
+            "y" : 0.746
+          },
+          "confidence" : 1,
+          "text" : "SQUASH YELLOW ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.0949,
+            "x" : 0.8325,
+            "y" : 0.746
+          },
+          "confidence" : 1,
+          "text" : "5.88"
+        }
+      ],
+      "text" : "34782        SQUASH YELLOW ORG       5.88",
+      "y" : 0.7503
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.7551
+          },
+          "confidence" : 1,
+          "text" : "1.37 lb @ $4.29/1b"
+        }
+      ],
+      "text" : "             1.37 lb @ $4.29/1b",
+      "y" : 0.7599
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.7651
+          },
+          "confidence" : 1,
+          "text" : "34070"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.3473,
+            "x" : 0.3238,
+            "y" : 0.765
+          },
+          "confidence" : 1,
+          "text" : "CELERY BUNCH ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.0948,
+            "x" : 0.8325,
+            "y" : 0.765
+          },
+          "confidence" : 1,
+          "text" : "3.82"
+        }
+      ],
+      "text" : "34070        CELERY BUNCH ORG        3.82",
+      "y" : 0.7692
+    },
+    {
+      "height" : 0.0091,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.7745
+          },
+          "confidence" : 1,
+          "text" : "1.16 lb @ $3.29/1b"
+        }
+      ],
+      "text" : "             1.16 lb @ $3.29/1b",
+      "y" : 0.7791
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.7836
+          },
+          "confidence" : 1,
+          "text" : "34562"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.3943,
+            "x" : 0.3211,
+            "y" : 0.7831
+          },
+          "confidence" : 1,
+          "text" : "CARROTS BULK TABLE"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.0894,
+            "x" : 0.8352,
+            "y" : 0.7837
+          },
+          "confidence" : 1,
+          "text" : "3.60"
+        }
+      ],
+      "text" : "34562        CARROTS BULK TABLE      3.60",
+      "y" : 0.7877
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.0705,
+            "x" : 0.3238,
+            "y" : 0.7931
+          },
+          "confidence" : 1,
+          "text" : "ORG"
+        }
+      ],
+      "text" : "             ORG",
+      "y" : 0.7972
+    },
+    {
+      "height" : 0.0104,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0104,
+            "width" : 0.3897,
+            "x" : 0.3235,
+            "y" : 0.8018
+          },
+          "confidence" : 1,
+          "text" : "1.29 lb @$2.79/1b"
+        }
+      ],
+      "text" : "             1.29 lb @$2.79/1b",
+      "y" : 0.807
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.1099,
+            "x" : 0.0286,
+            "y" : 0.812
+          },
+          "confidence" : 1,
+          "text" : "34038"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.8116
+          },
+          "confidence" : 1,
+          "text" : "PEACHES YELLOW ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0085,
+            "width" : 0.0914,
+            "x" : 0.8355,
+            "y" : 0.8121
+          },
+          "confidence" : 1,
+          "text" : "7.14"
+        }
+      ],
+      "text" : "34038        PEACHES YELLOW ORG      7.14",
+      "y" : 0.8161
+    },
+    {
+      "height" : 0.0101,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0101,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.8211
+          },
+          "confidence" : 1,
+          "text" : "1.43 lb @ $4.99/1b"
+        }
+      ],
+      "text" : "             1.43 lb @ $4.99/1b",
+      "y" : 0.8262
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.1105,
+            "x" : 0.0283,
+            "y" : 0.8309
+          },
+          "confidence" : 1,
+          "text" : "34062"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.2637,
+            "x" : 0.3238,
+            "y" : 0.8311
+          },
+          "confidence" : 1,
+          "text" : "CUCUMBER ORG"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0087,
+            "width" : 0.0917,
+            "x" : 0.8353,
+            "y" : 0.831
+          },
+          "confidence" : 1,
+          "text" : "1.88"
+        }
+      ],
+      "text" : "34062        CUCUMBER ORG            1.88",
+      "y" : 0.8352
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.8406
+          },
+          "confidence" : 1,
+          "text" : "0.82 lb @ $2.29/1b"
+        }
+      ],
+      "text" : "             0.82 lb @ $2.29/1b",
+      "y" : 0.8451
+    },
+    {
+      "height" : 0.0083,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1097,
+            "x" : 0.0287,
+            "y" : 0.85
+          },
+          "confidence" : 1,
+          "text" : "93507"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.389,
+            "x" : 0.3238,
+            "y" : 0.85
+          },
+          "confidence" : 1,
+          "text" : "APPLE COSMIC CRISP"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0092,
+            "width" : 0.0946,
+            "x" : 0.8326,
+            "y" : 0.8499
+          },
+          "confidence" : 1,
+          "text" : "7.03"
+        }
+      ],
+      "text" : "93507        APPLE COSMIC CRISP      7.03",
+      "y" : 0.8541
+    },
+    {
+      "height" : 0.0081,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.0705,
+            "x" : 0.3238,
+            "y" : 0.8595
+          },
+          "confidence" : 1,
+          "text" : "ORG"
+        }
+      ],
+      "text" : "             ORG",
+      "y" : 0.8636
+    },
+    {
+      "height" : 0.009,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.3864,
+            "x" : 0.3264,
+            "y" : 0.8686
+          },
+          "confidence" : 1,
+          "text" : "2.35 lb @ $2.99/1b"
+        }
+      ],
+      "text" : "              2.35 lb @ $2.99/1b",
+      "y" : 0.8731
+    },
+    {
+      "height" : 0.0082,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.0679,
+            "x" : 0.0287,
+            "y" : 0.8785
+          },
+          "confidence" : 0.3,
+          "text" : "305"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0083,
+            "width" : 0.2195,
+            "x" : 0.3237,
+            "y" : 0.8779
+          },
+          "confidence" : 1,
+          "text" : "BAG CREDIT"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0086,
+            "width" : 0.0916,
+            "x" : 0.8354,
+            "y" : 0.878
+          },
+          "confidence" : 1,
+          "text" : "0.00"
+        }
+      ],
+      "text" : "305          BAG CREDIT              0.00",
+      "y" : 0.8822
+    },
+    {
+      "height" : 0.0095,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0095,
+            "width" : 0.1776,
+            "x" : 0.3237,
+            "y" : 0.8875
+          },
+          "confidence" : 1,
+          "text" : "4 @ 0.00"
+        }
+      ],
+      "text" : "             4 @ 0.00",
+      "y" : 0.8923
+    },
+    {
+      "height" : 0.0084,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0077,
+            "width" : 0.1907,
+            "x" : 0.5613,
+            "y" : 0.897
+          },
+          "confidence" : 1,
+          "text" : "Discount:"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.1123,
+            "x" : 0.8146,
+            "y" : 0.897
+          },
+          "confidence" : 1,
+          "text" : "-0.40"
+        }
+      ],
+      "text" : "                        Discount:   -0.40",
+      "y" : 0.9012
+    },
+    {
+      "height" : 0.0085,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.2171,
+            "x" : 0.3497,
+            "y" : 0.9159
+          },
+          "confidence" : 1,
+          "text" : "10% Member"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0077,
+            "width" : 0.1403,
+            "x" : 0.5969,
+            "y" : 0.9169
+          },
+          "confidence" : 1,
+          "text" : "Coupon"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0094,
+            "width" : 0.1313,
+            "x" : 0.7934,
+            "y" : 0.9158
+          },
+          "confidence" : 1,
+          "text" : "-24.07"
+        }
+      ],
+      "text" : "               10% Member Coupon   -24.07",
+      "y" : 0.9205
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1775,
+            "x" : 0.3238,
+            "y" : 0.935
+          },
+          "confidence" : 1,
+          "text" : "SUBTOTAL"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.1359,
+            "x" : 0.7911,
+            "y" : 0.935
+          },
+          "confidence" : 1,
+          "text" : "216.23"
+        }
+      ],
+      "text" : "             SUBTOTAL              216.23",
+      "y" : 0.9393
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.1965,
+            "x" : 0.326,
+            "y" : 0.9442
+          },
+          "confidence" : 1,
+          "text" : "State Tax"
+        },
+        {
+          "bbox" : {
+            "height" : 0.009,
+            "width" : 0.1123,
+            "x" : 0.8146,
+            "y" : 0.9445
+          },
+          "confidence" : 1,
+          "text" : "13.00"
+        }
+      ],
+      "text" : "              State Tax             13.00",
+      "y" : 0.9487
+    },
+    {
+      "height" : 0.0087,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.1123,
+            "x" : 0.3264,
+            "y" : 0.954
+          },
+          "confidence" : 1,
+          "text" : "TOTAL"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0093,
+            "width" : 0.1364,
+            "x" : 0.7934,
+            "y" : 0.9538
+          },
+          "confidence" : 1,
+          "text" : "229.23"
+        }
+      ],
+      "text" : "              TOTAL                229.23",
+      "y" : 0.9583
+    },
+    {
+      "height" : 0.0086,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0081,
+            "width" : 0.2402,
+            "x" : 0.3264,
+            "y" : 0.963
+          },
+          "confidence" : 1,
+          "text" : "Credit Card"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0091,
+            "width" : 0.1359,
+            "x" : 0.7911,
+            "y" : 0.9634
+          },
+          "confidence" : 1,
+          "text" : "229.23"
+        }
+      ],
+      "text" : "              Credit Card          229.23",
+      "y" : 0.9675
+    },
+    {
+      "height" : 0.0088,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0082,
+            "width" : 0.3055,
+            "x" : 0.3264,
+            "y" : 0.9729
+          },
+          "confidence" : 1,
+          "text" : "TOTAL TENDERED"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0094,
+            "width" : 0.1391,
+            "x" : 0.7907,
+            "y" : 0.9726
+          },
+          "confidence" : 1,
+          "text" : "229.23"
+        }
+      ],
+      "text" : "              TOTAL TENDERED       229.23",
+      "y" : 0.9772
+    },
+    {
+      "height" : 0.0028,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0028,
+            "width" : 0.0627,
+            "x" : 0.8616,
+            "y" : 0.9848
+          },
+          "confidence" : 0.5,
+          "text" : "--."
+        }
+      ],
+      "text" : "                                      --.",
+      "y" : 0.9862
+    },
+    {
+      "height" : 0.008,
+      "segments" : [
+        {
+          "bbox" : {
+            "height" : 0.0076,
+            "width" : 0.1384,
+            "x" : 0.3238,
+            "y" : 0.9919
+          },
+          "confidence" : 1,
+          "text" : "Change"
+        },
+        {
+          "bbox" : {
+            "height" : 0.0084,
+            "width" : 0.0949,
+            "x" : 0.835,
+            "y" : 0.9913
+          },
+          "confidence" : 1,
+          "text" : "0.00"
+        }
+      ],
+      "text" : "             Change                  0.00",
+      "y" : 0.9956
+    }
+  ]
+}
