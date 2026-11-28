@@ -1,9 +1,11 @@
 import argparse
 import json
 import os
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 from openai import APIConnectionError, APIStatusError
 
@@ -18,10 +20,16 @@ DEFAULT_BASE_URL = "http://localhost:8080/v1"
 TIMESTAMP_FORMAT = "%Y-%m-%d_%H:%M.%S"
 
 
-def timestamped_output_path(path: Path, now: datetime | None = None) -> Path:
-    """Append a YYYY-MM-DD_HH:MM.SS timestamp to an output file path stem."""
+def timestamped_output_paths(
+    path: Path, now: datetime | None = None
+) -> tuple[Path, Path]:
+    """Return timestamped (.json, .md) output paths using `path.stem`."""
     timestamp = (now or datetime.now()).strftime(TIMESTAMP_FORMAT)
-    return path.with_name(f"{path.stem}_{timestamp}{path.suffix}")
+    base_name = f"{path.stem}_{timestamp}"
+    return (
+        path.with_name(f"{base_name}.json"),
+        path.with_name(f"{base_name}.md"),
+    )
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -73,8 +81,9 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=None,
         help=(
-            "Optional path to write full benchmark results as JSON "
-            "(appends _YYYY-MM-DD_HH:MM.SS to filename)"
+            "Optional output path/prefix to write full benchmark results as JSON "
+            "and Markdown (ignores extension and writes "
+            "<stem>_YYYY-MM-DD_HH:MM.SS.{json,md})"
         ),
     )
     parser.add_argument(
@@ -90,6 +99,224 @@ def _fmt_rate(val: float | None, suffix: str = "tok/s") -> str:
     if val is None:
         return "N/A"
     return f"{val:,.2f} {suffix}"
+
+
+def _fmt_int(val: int | None) -> str:
+    if val is None:
+        return "N/A"
+    return f"{val:,}"
+
+
+def _fmt_ms(val: float | None) -> str:
+    if val is None:
+        return "N/A"
+    return f"{val:,.2f} ms"
+
+
+def _fmt_opt_float(val: float | None) -> str:
+    if val is None:
+        return "null"
+    return str(val)
+
+
+def _md_escape_cell(text: str) -> str:
+    return (
+        text.replace("\r\n", "\n")
+        .replace("\r", "\n")
+        .replace("\n", "<br>")
+        .replace("|", "\\|")
+    )
+
+
+def _md_code_span(text: str, *, escape_pipes: bool = False) -> str:
+    normalized = text.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
+    if escape_pipes:
+        normalized = normalized.replace("|", "\\|")
+    if not normalized:
+        return '""'
+    runs = re.findall(r"`+", normalized)
+    fence = "`" * (max((len(r) for r in runs), default=0) + 1)
+    needs_pad = (
+        normalized.startswith("`")
+        or normalized.endswith("`")
+        or (
+            len(normalized) >= 2
+            and normalized.startswith(" ")
+            and normalized.endswith(" ")
+        )
+    )
+    if needs_pad:
+        return f"{fence} {normalized} {fence}"
+    return f"{fence}{normalized}{fence}"
+
+
+def _md_json_cell(val: Any) -> str:
+    return _md_code_span(json.dumps(val), escape_pipes=True)
+
+
+def _md_fenced_block(content: str, info: str = "") -> str:
+    runs = re.findall(r"`+", content)
+    fence = "`" * max(3, max((len(r) for r in runs), default=0) + 1)
+    body = content if content.endswith("\n") else f"{content}\n"
+    return f"{fence}{info}\n{body}{fence}"
+
+
+def format_markdown_report(result: BenchmarkResult) -> str:
+    """Format a BenchmarkResult as a complete GitHub-Flavored Markdown report."""
+    perf = result.performance
+    lines: list[str] = [
+        "# Receipt Extraction Benchmark Report",
+        "",
+        f"- **Model**: {_md_code_span(result.model)}",
+        f"- **Base URL**: {_md_code_span(result.base_url)}",
+    ]
+    if result.error is None:
+        lines.append("- **Error**: None")
+    else:
+        lines.extend(
+            [
+                "- **Error**: Yes (see error details below)",
+                "",
+                "## Error",
+                "",
+                _md_fenced_block(result.error, "text"),
+            ]
+        )
+
+    lines.extend(
+        [
+            "",
+            "## Performance",
+            "",
+            "| Metric | Value |",
+            "| --- | --- |",
+            f"| Wall Time (`wall_time_seconds`) | {perf.wall_time_seconds:.2f} s |",
+            f"| Prompt Tokens (`prompt_tokens`) | {_fmt_int(perf.prompt_tokens)} |",
+            (
+                "| Cached Prompt Tokens (`cached_prompt_tokens`) | "
+                f"{_fmt_int(perf.cached_prompt_tokens)} |"
+            ),
+            (
+                "| Completion Tokens (`completion_tokens`) | "
+                f"{_fmt_int(perf.completion_tokens)} |"
+            ),
+            f"| Prompt Time (`prompt_ms`) | {_fmt_ms(perf.prompt_ms)} |",
+            f"| Generation Time (`generation_ms`) | {_fmt_ms(perf.generation_ms)} |",
+            (
+                "| Prefill Throughput (`prefill_tokens_per_sec`) | "
+                f"{_fmt_rate(perf.prefill_tokens_per_sec)} |"
+            ),
+            (
+                "| Generation Throughput (`generation_tokens_per_sec`) | "
+                f"{_fmt_rate(perf.generation_tokens_per_sec)} |"
+            ),
+            (
+                "| Timings Source (`timings_source`) | "
+                f"{_md_code_span(perf.timings_source, escape_pipes=True)} |"
+            ),
+            "",
+            "## Accuracy",
+            "",
+        ]
+    )
+
+    if result.accuracy is None:
+        lines.append("_Accuracy metrics unavailable._")
+    else:
+        acc = result.accuracy
+        item_denom = max(acc.expected_items, acc.predicted_items)
+        lines.extend(
+            [
+                "| Metric | Value |",
+                "| --- | --- |",
+                (
+                    "| Overall Field Accuracy (`overall_accuracy`) | "
+                    f"{acc.overall_accuracy * 100:.2f}% "
+                    f"({acc.matched_fields}/{acc.total_fields}) |"
+                ),
+                f"| Matched Fields (`matched_fields`) | {acc.matched_fields:,} |",
+                f"| Total Fields (`total_fields`) | {acc.total_fields:,} |",
+                (
+                    "| Exact Item Match Rate (`item_exact_rate`) | "
+                    f"{acc.item_exact_rate * 100:.2f}% "
+                    f"({acc.exact_items}/{item_denom}) |"
+                ),
+                f"| Exact Items (`exact_items`) | {acc.exact_items:,} |",
+                f"| Expected Items (`expected_items`) | {acc.expected_items:,} |",
+                f"| Predicted Items (`predicted_items`) | {acc.predicted_items:,} |",
+                "",
+                "### Per-Field Accuracy",
+                "",
+                "| Field | Accuracy |",
+                "| --- | --- |",
+            ]
+        )
+        for field in ITEM_FIELDS:
+            pct = acc.field_accuracies[field] * 100
+            lines.append(f"| `item.{field}` | {pct:.2f}% |")
+        for field in SUMMARY_FIELDS:
+            pct = acc.field_accuracies[field] * 100
+            status = "MATCH" if acc.field_accuracies[field] == 1.0 else "MISMATCH"
+            lines.append(f"| `receipt.{field}` | {pct:.2f}% ({status}) |")
+
+        lines.extend(["", f"### Mismatches ({len(acc.mismatches)})", ""])
+        if not acc.mismatches:
+            lines.append("_No mismatches._")
+        else:
+            lines.extend(
+                [
+                    "| Location | Field | Expected | Actual |",
+                    "| --- | --- | --- | --- |",
+                ]
+            )
+            for m in acc.mismatches:
+                loc_cell = _md_code_span(m.location, escape_pipes=True)
+                field_cell = _md_code_span(m.field, escape_pipes=True)
+                exp_cell = _md_json_cell(m.expected)
+                act_cell = _md_json_cell(m.actual)
+                lines.append(f"| {loc_cell} | {field_cell} | {exp_cell} | {act_cell} |")
+
+    lines.extend(["", "## Predicted Receipt", ""])
+    if result.predicted is None:
+        lines.append("_No predicted receipt._")
+    else:
+        pred = result.predicted
+        lines.extend([f"### Items ({len(pred.items)})", ""])
+        if not pred.items:
+            lines.append("_No items._")
+        else:
+            lines.extend(
+                [
+                    "| # | Name | Quantity | Unit Price | Price |",
+                    "| --- | --- | --- | --- | --- |",
+                ]
+            )
+            for idx, item in enumerate(pred.items):
+                lines.append(
+                    f"| {idx} | {_md_escape_cell(item.name)} | "
+                    f"{_fmt_opt_float(item.quantity)} | "
+                    f"{_fmt_opt_float(item.unit_price)} | {item.price} |"
+                )
+        lines.extend(
+            [
+                "",
+                "### Totals",
+                "",
+                "| Field | Amount |",
+                "| --- | --- |",
+                f"| `subtotal` | {pred.subtotal} |",
+                f"| `tax` | {pred.tax} |",
+                f"| `total` | {pred.total} |",
+            ]
+        )
+
+    lines.extend(["", "## Raw Content", ""])
+    if result.raw_content is None:
+        lines.append("_None_")
+    else:
+        lines.append(_md_fenced_block(result.raw_content, "json"))
+
+    return "\n".join(lines).rstrip() + "\n"
 
 
 def print_report(result: BenchmarkResult, max_mismatches: int = 15) -> None:
@@ -217,12 +444,16 @@ def main(argv: list[str] | None = None) -> int:
     print_report(result, max_mismatches=args.max_mismatches)
 
     if args.output is not None:
-        output_path = timestamped_output_path(args.output)
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_text(
+        json_path, md_path = timestamped_output_paths(args.output)
+        json_path.parent.mkdir(parents=True, exist_ok=True)
+        json_path.write_text(
             json.dumps(result.to_dict(), indent=2) + "\n",
             encoding="utf-8",
         )
-        print(f"\nSaved full benchmark results to {output_path}")
+        md_path.write_text(
+            format_markdown_report(result),
+            encoding="utf-8",
+        )
+        print(f"\nSaved full benchmark results to {json_path} and {md_path}")
 
     return 0 if result.error is None else 1
