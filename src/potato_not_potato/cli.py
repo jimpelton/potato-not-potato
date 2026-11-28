@@ -17,7 +17,7 @@ DEFAULT_RECEIPT_PATH = Path("data/img20260903_15395748.txt")
 DEFAULT_GROUND_TRUTH_PATH = Path("data/ground-truth/img20260903_15395748.json")
 DEFAULT_MODEL = "inkling-2-mini"
 DEFAULT_BASE_URL = "http://localhost:8080/v1"
-TIMESTAMP_FORMAT = "%Y-%m-%d_%H:%M.%S"
+TIMESTAMP_FORMAT = "%Y-%m-%dT%H-%M-%S"
 
 
 def timestamped_output_paths(
